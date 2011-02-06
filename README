@@ -1,0 +1,2 @@
+Scheme interpreter mostly based on SICP and http://peter.michaux.ca/index#Scheme from Scratch
+Does not try to implement scheme according to any spec
