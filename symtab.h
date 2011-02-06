@@ -1,5 +1,5 @@
-#ifndef _H_SYMTAB
-#define _H_SYMTAB
+#ifndef SYMTAB_H
+#define SYMTAB_H
 
 typedef struct ta table;
 

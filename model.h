@@ -1,5 +1,5 @@
-#ifndef _MODEL_H
-#define _MODEL_H
+#ifndef MODEL_H
+#define MODEL_H
 
 #include <stdlib.h>
 #include <stdio.h>
@@ -10,6 +10,7 @@ typedef struct obj object;
 #include "symtab.h"
 #include "env.h"
 #include "output.h"
+
 typedef enum {NUM, CHAR, STR, BOOL, SYM, PAIR, EMPTY_PAIR, PRIM_FUNC,
               COMP_FUNC, OUTPUT_PORT} obj_type;
 

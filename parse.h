@@ -3,8 +3,8 @@
 #include <string.h>
 #include <ctype.h>
 
-#ifndef _PARSE_H
-#define _PARSE_H
+#ifndef PARSE_H
+#define PARSE_H
 
 object* parse(FILE *stream);
 

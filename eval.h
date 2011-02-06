@@ -1,5 +1,5 @@
-#ifndef _EVAL_H
-#define _EVAL_H
+#ifndef EVAL_H
+#define EVAL_H
 
 #include "model.h"
 #include "env.h"

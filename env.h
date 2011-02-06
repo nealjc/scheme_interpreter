@@ -1,5 +1,5 @@
-#ifndef H_ENV
-#define H_ENV
+#ifndef ENV_H
+#define ENV_H
 
 typedef struct e env;
 
