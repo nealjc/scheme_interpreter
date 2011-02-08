@@ -8,17 +8,6 @@ object *quote_sym;
 object *define_sym;
 object *set_sym;
 
-object *alloc_obj()
-{
-  object *new = malloc(sizeof(object));
-  if (new == NULL) {
-    printf("Out of memory\n");
-    exit(1);
-  }
-  return new;
-
-}
-
 object *create_num(char *str)
 {
   object *num = alloc_obj();

@@ -79,7 +79,7 @@ void write(FILE *out, object *to_write)
     break;
   case PRIM_FUNC:
   case COMP_FUNC:
-    fprintf(out,"#<procedure>");
+    fprintf(out,"#<procedure>\n");
     break;
   case PAIR:
     fprintf(out,"(");

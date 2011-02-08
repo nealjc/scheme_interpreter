@@ -10,6 +10,7 @@ typedef struct obj object;
 #include "symtab.h"
 #include "env.h"
 #include "output.h"
+#include "mem.h"
 
 typedef enum {NUM, CHAR, STR, BOOL, SYM, PAIR, EMPTY_PAIR, PRIM_FUNC,
               COMP_FUNC, OUTPUT_PORT} obj_type;
@@ -80,8 +81,6 @@ int is_true(object *);
 int is_false(object *);
 
 void init(env *);
-
-object *alloc_obj();
 
 
 #define caar(obj)   car(car(obj))

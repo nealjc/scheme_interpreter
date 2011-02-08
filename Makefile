@@ -11,7 +11,8 @@ SOURCES=repl.c\
 	output.c\
 	parse.c\
 	symtab.c\
-	env.c
+	env.c\
+	mem.c
 
 
 
